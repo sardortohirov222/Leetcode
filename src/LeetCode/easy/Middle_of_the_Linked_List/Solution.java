@@ -27,6 +27,7 @@ public class Solution {
         }
         return temp;
     }
+//
 //        public ListNode middleNode(ListNode head) {
 //        ListNode node = null;
 //            ArrayList list=new ArrayList();
