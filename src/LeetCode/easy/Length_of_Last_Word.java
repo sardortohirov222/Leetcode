@@ -4,7 +4,6 @@ public class Length_of_Last_Word {
     public static void main(String[] args) {
         System.out.println(lengthOfLastWord(" asad sardorbek niisa qalzXisan      sda sdas   "));
     }
-
     public static int lengthOfLastWord(String s) {
         int a = s.length() - 1;
         int b = 0;
