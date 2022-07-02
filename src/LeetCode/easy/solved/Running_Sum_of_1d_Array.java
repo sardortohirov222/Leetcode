@@ -1,4 +1,4 @@
-package LeetCode.easy;
+package LeetCode.easy.solved;
 
 public class Running_Sum_of_1d_Array {
     public static void main(String[] args) {

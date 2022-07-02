@@ -1,4 +1,4 @@
-package LeetCode.easy;
+package LeetCode.easy.solved;
 
 public class Transpose_Matrix {
     public static void main(String[] args) {

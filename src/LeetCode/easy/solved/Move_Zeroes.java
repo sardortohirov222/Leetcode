@@ -1,4 +1,4 @@
-package LeetCode.easy;
+package LeetCode.easy.solved;
 
 public class Move_Zeroes {
     public static void main(String[] args) {

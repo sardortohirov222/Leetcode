@@ -1,4 +1,4 @@
-package LeetCode.easy;
+package LeetCode.easy.solved;
 
 public class Search_Insert_Position {
     public static void main(String[] args) {

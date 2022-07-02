@@ -1,4 +1,4 @@
-package LeetCode.easy;
+package LeetCode.easy.solved;
 
 public class First_Bad_Version {
     public static void main(String[] args) {

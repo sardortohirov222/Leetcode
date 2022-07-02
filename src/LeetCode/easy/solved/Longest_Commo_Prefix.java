@@ -1,4 +1,4 @@
-package LeetCode.easy;
+package LeetCode.easy.solved;
 
 public class Longest_Commo_Prefix {
     public static void main(String[] args) {

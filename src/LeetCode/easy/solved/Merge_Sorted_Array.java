@@ -1,4 +1,4 @@
-package LeetCode.easy;
+package LeetCode.easy.solved;
 import java.util.Arrays;
 public class Merge_Sorted_Array {
     public static void main(String[] args) {

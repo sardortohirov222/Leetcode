@@ -1,6 +1,4 @@
-package LeetCode.easy;
-
-import java.util.Arrays;
+package LeetCode.easy.solved;
 
 public class Squares_of_a_Sorted_Array {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package LeetCode.easy;
+package LeetCode.easy.solved;
 
 public class Reverse_Words_in_a_String_III {
     public String reverseWords(String s) {

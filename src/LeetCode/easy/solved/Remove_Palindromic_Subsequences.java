@@ -1,4 +1,4 @@
-package LeetCode.easy;
+package LeetCode.easy.solved;
 
 public class Remove_Palindromic_Subsequences {
     public static void main(String[] args) {
