@@ -1,6 +1,7 @@
 package LeetCode.easy;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Pascals_Triangle {
@@ -10,9 +11,7 @@ public class Pascals_Triangle {
 
     public static List<List<Integer>> generate(int numRows) {
         List<List<Integer>> lists = new ArrayList<>();
-        List<Integer> integerList = new ArrayList<>();
-        integerList.add(1);
-        lists.add(integerList);
+        lists.add(Arrays.asList(1));
         while (lists.size() < numRows) {
             List<Integer> integerList_2 = new ArrayList<>();
             integerList_2.add(1);
