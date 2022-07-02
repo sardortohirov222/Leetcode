@@ -1,6 +1,4 @@
-package LeetCode.easy.mergetwobinarytrees;
-
-import LeetCode.easy.Middle_of_the_Linked_List.ListNode;
+package LeetCode.easy.todo.mergetwobinarytrees;
 
 public class Merge_Two_Binary_Trees {
     public static void main(String[] args) {
