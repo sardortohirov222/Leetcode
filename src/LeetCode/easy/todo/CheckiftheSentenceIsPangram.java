@@ -9,21 +9,14 @@ public class CheckiftheSentenceIsPangram {
     }
 
     public static boolean checkIfPangram(String sentence) {
-       if (sentence.length()<26){
-           return false;
-       }
-        Set<Character> set=new HashSet();
-        for (int i = 0; i <sentence.length(); i++) {
-            set.add(sentence.charAt(i));
+        int a=0;
+        int i=0;
+        while (sentence.length()>i){
+            sentence.replaceAll(String.valueOf(sentence.charAt(i)),"");
+            i++;
+            a++;
         }
-
-        if(set.size()>25){
-            return true;
-        }
-        else {
-            return false;
-        }
-
+        return a>25;
     }
 
 
