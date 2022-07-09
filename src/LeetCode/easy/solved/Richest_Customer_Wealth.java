@@ -1,4 +1,4 @@
-package LeetCode.easy.todo;
+package LeetCode.easy.solved;
 
 public class Richest_Customer_Wealth {
     public static void main(String[] args) {

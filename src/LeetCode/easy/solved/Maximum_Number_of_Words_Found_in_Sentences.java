@@ -1,4 +1,4 @@
-package LeetCode.easy.todo;
+package LeetCode.easy.solved;
 
 public class Maximum_Number_of_Words_Found_in_Sentences {
     public static void main(String[] args) {
