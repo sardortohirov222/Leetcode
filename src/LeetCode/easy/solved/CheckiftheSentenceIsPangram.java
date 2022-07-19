@@ -1,4 +1,4 @@
-package LeetCode.easy.todo;
+package LeetCode.easy.solved;
 
 import java.util.HashSet;
 import java.util.Set;
