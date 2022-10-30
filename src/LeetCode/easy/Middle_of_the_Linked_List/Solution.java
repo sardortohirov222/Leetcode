@@ -28,8 +28,8 @@ public class Solution {
         return temp;
     }
 //
-//        public ListNode middleNode(ListNode head) {
-//        ListNode node = null;
+//        public Testt.ListNode middleNode(Testt.ListNode head) {
+//        Testt.ListNode node = null;
 //            ArrayList list=new ArrayList();
 //
 //            while (head!=null){
@@ -39,7 +39,7 @@ public class Solution {
 //            int as=list.size()/2;
 //            while (as<list.size()){
 //                if(node == null){
-//                node=new ListNode();}
+//                node=new Testt.ListNode();}
 //                node.val=(Integer) list.get(as);
 //                as++;
 //            }

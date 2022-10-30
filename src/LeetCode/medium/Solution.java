@@ -29,22 +29,22 @@ public class Solution {
 
 
 /**
- * public LeetCode.medium.ListNode addTwoNumbers(LeetCode.medium.ListNode l1, LeetCode.medium.ListNode l2) {
- * LeetCode.medium.ListNode dummyHead = new LeetCode.medium.ListNode(0);
- * LeetCode.medium.ListNode p = l1, q = l2, curr = dummyHead;
+ * public LeetCode.medium.Testt.ListNode addTwoNumbers(LeetCode.medium.Testt.ListNode l1, LeetCode.medium.Testt.ListNode l2) {
+ * LeetCode.medium.Testt.ListNode dummyHead = new LeetCode.medium.Testt.ListNode(0);
+ * LeetCode.medium.Testt.ListNode p = l1, q = l2, curr = dummyHead;
  * int carry = 0;
  * while (p != null || q != null) {
  * int x = (p != null) ? p.val : 0;
  * int y = (q != null) ? q.val : 0;
  * int sum = carry + x + y;
  * carry = sum / 10;
- * curr.next = new LeetCode.medium.ListNode(sum % 10);
+ * curr.next = new LeetCode.medium.Testt.ListNode(sum % 10);
  * curr = curr.next;
  * if (p != null) p = p.next;
  * if (q != null) q = q.next;
  * }
  * if (carry > 0) {
- * curr.next = new LeetCode.medium.ListNode(carry);
+ * curr.next = new LeetCode.medium.Testt.ListNode(carry);
  * }
  * return dummyHead.next;
  * }
