@@ -5,22 +5,8 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class Sardorbek {
-
     public static void main(String[] args) {
         System.out.println("Hello World !");
-    }
-    public int maximum69Number (int num) {
-      int sum=1;
-        for(int i=1000;i>=10;i=i/10){
-           if(num/i==0)
-               continue;
-           if(num/i==6){
-               return (9*i)+(num-(num/i));
-           }
-           sum =num/i;
-        }
-        return sum;
-        
     }
 }
 
