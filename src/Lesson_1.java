@@ -6,7 +6,7 @@ public class Lesson_1 {
     // you need to treat n as an unsigned value
     public int hammingWeight(int n) {
 
-
+        System.out.println("Ss");
 
         int setBits=0;
 
