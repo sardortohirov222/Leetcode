@@ -6,7 +6,7 @@ package LeetCode.medium.solving.node_98;
  */
 public class Validate_Binary_Search_Tree_98 {
     public boolean isValidBST(TreeNode root) {
-        return rightAndLeftSiteChecker(root,0);
+        return rightAndLeftSiteChecker(root, root.val);
     }
 
     public boolean rightAndLeftSiteChecker(TreeNode root,int hightValue) {
