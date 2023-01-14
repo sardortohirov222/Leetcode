@@ -1,34 +1,23 @@
 package LeetCode.easy.cheat_sheet;
 
+import java.util.HashSet;
+
 public class Maximum_Number_of_Words_Found_in_Sentences {
     public static void main(String[] args) {
-        System.out.println(mostWordsFound(new String[]{"alice and bob love leetcode","i think so too","this is great thanks very much"}));
+        System.out.println(mostWordsFound(new String[]{"alice and bob love leetcode", "i think so too", "this is great thanks very much"}));
 
     }
 
     public static int mostWordsFound(String[] sentences) {
-        int a=0;
-        int i=0;
-        int ab=0;
-        int s=0;
-        while (i<sentences.length){
-           if(sentences[i].charAt(ab)==' ')
-               s++;
-           if (s>a)
-               a=s;
-            ab++;
-           if(sentences[i].length()<=ab){
-               s=0;
-               ab=0;
-               i++;
-           }
-
+        int b = 0;
+        for (String a : sentences) {
+            String[] aa = a.split(" ");
+            if (b < aa.length) {
+                b = aa.length;
+            }
         }
-
-
-        return a+1;
+        return b;
     }
-
 
 
 //    public static int mostWordsFound(String[] sentences) {
