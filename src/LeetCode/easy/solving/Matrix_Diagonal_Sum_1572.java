@@ -10,7 +10,6 @@ public class Matrix_Diagonal_Sum_1572 {
         int leftSideSum = 0;
         int rightSideSum = 0;
         int lenR = mat.length - 1;
-        int lenRDuble = 0;
         int lenL = 0;
         while (lenR >= 0) {
             leftSideSum += mat[lenL][lenL];
