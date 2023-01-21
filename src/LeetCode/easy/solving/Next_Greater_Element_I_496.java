@@ -1,6 +1,5 @@
 package LeetCode.easy.solving;
 
-import java.util.*;
 
 /**
  * Date-1/16/2023
