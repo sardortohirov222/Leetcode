@@ -1,4 +1,4 @@
-package LeetCode.easy.solving;
+package LeetCode.easy.solved;
 
 public class Sign_of_the_Product_of_an_Array_1822 {
     public int arraySign(int[] nums) {
