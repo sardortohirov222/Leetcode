@@ -1,17 +1,10 @@
-package LeetCode.easy.solving;
-
-import java.util.HashSet;
-import java.util.Set;
+package LeetCode.easy.solved;
 
 /**
  * Date-1/27/2023
  * Time-11:48 AM
  */
 public class Repeated_Substring_Pattern_459 {
-    public static void main(String[] args) {
-        var a = new Repeated_Substring_Pattern_459();
-        System.out.println(a.repeatedSubstringPattern("ababab"));
-    }
 
     public boolean repeatedSubstringPattern(String s) {
         int sLens=s.length();
