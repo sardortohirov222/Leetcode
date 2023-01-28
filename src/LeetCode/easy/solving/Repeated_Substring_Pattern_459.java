@@ -10,27 +10,22 @@ import java.util.Set;
 public class Repeated_Substring_Pattern_459 {
     public static void main(String[] args) {
         var a = new Repeated_Substring_Pattern_459();
-        System.out.println(a.repeatedSubstringPattern("abaababaab"));
+        System.out.println(a.repeatedSubstringPattern("ababab"));
     }
 
     public boolean repeatedSubstringPattern(String s) {
-        String repWord = repeatingWord(s);
-        if (repWord.length() == 0) {
-            return false;
+        int sLens=s.length();
+        int len=sLens/2;
+        while (len>=1){
+            if(sLens%len==0){
+                if (s.replaceAll(s.substring(0,len),"").length()==0){
+                    return true;
+                }
+            }
+            len--;
         }
-        s = s.replaceAll(repWord, "");
-        return s.length() == 0;
+
+        return false;
     }
 
-    public String repeatingWord(String word) {
-        String w = String.valueOf(word.charAt(0));
-        int i = 1;
-        while (word.length() / 2+1 > i) {
-            if (word.substring(i, w.length() + i).equals(w)) {
-                return w;
-            }
-            w += word.charAt(i++);
-        }
-        return "";
-    }
 }
