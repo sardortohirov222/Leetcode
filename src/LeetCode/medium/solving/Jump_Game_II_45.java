@@ -9,9 +9,9 @@ public class Jump_Game_II_45 {
         int jumps=0;
         int point=0;
         while (point<nums.length-1){
-            nums[point]
+//            nums[point]
         }
         return jumps;
     }
-    .
+
 }

@@ -1,4 +1,4 @@
-package LeetCode.medium;
+package LeetCode.medium.solving;
 
 /**
  * Date-2/11/2023
