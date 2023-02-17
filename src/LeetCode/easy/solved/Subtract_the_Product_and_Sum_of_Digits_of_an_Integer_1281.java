@@ -11,6 +11,7 @@ public class Subtract_the_Product_and_Sum_of_Digits_of_an_Integer_1281 {
         int mult = 1;
         while (i > 0) {
             int a = n / i;
+
             sum += a;
             mult *= a;
             n = n % i;
