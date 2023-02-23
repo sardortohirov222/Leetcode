@@ -13,7 +13,7 @@ public class Permutation_in_String_567 {
         System.out.println(a.checkInclusion("ab",
                 "eidbaooo"));
     }
-
+//i can't undrstand what hapening here
     public boolean checkInclusion(String s1, String s2) {
         int n = s1.length();
         int m = s2.length();
