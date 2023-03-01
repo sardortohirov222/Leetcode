@@ -6,8 +6,9 @@ package LeetCode.hard.solving;
  */
 public class Edit_Distance_72 {
     public static void main(String[] args) {
-        String str="abcdef";
+        String str="abscdef";
 //        str
+
     }
     public int minDistance(String word1, String word2) {
         return 0;
