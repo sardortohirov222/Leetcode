@@ -6,7 +6,7 @@ package LeetCode.hard.solving;
  */
 public class Edit_Distance_72 {
     public static void main(String[] args) {
-        String str="abscdef";
+        String str="abscdefs";
 //        str
 
     }
