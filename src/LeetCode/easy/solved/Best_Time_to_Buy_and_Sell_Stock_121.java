@@ -15,6 +15,7 @@ public class Best_Time_to_Buy_and_Sell_Stock_121 {
             }
             if (prices[maxIncr]-minimum>stock){
                 stock=prices[maxIncr]-minimum;
+
             }
 
             maxIncr++;
