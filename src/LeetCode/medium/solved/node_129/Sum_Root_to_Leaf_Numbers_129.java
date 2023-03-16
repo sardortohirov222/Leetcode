@@ -1,5 +1,7 @@
 package LeetCode.medium.solved.node_129;
 
+import java.util.Locale;
+
 /**
  * Date-3/14/2023
  * Time-6:59 AM
@@ -20,6 +22,7 @@ public class Sum_Root_to_Leaf_Numbers_129 {
         if (root == null) {
             return;
         }
+        String strs="sas".toLowerCase(Locale.ROOT);
         str = str*10+root.val;
 
         if (root.left == null && root.right == null) {
