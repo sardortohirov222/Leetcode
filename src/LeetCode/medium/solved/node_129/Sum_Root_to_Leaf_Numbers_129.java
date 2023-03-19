@@ -22,9 +22,7 @@ public class Sum_Root_to_Leaf_Numbers_129 {
         if (root == null) {
             return;
         }
-        String strs="sas".toLowerCase(Locale.ROOT);
         str = str*10+root.val;
-
         if (root.left == null && root.right == null) {
             sum += str;
             return;
