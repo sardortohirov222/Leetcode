@@ -1,19 +1,10 @@
-package LeetCode.easy.solving;
+package LeetCode.easy.solved;
 
 /**
  * Date-3/22/2023
  * Time-4:26 AM
  */
-public class Design_Parking_System_1603 {
-    public static void main(String[] args) {
-          ParkingSystem obj = new ParkingSystem(1, 1, 0);
-          System.out.println(obj.addCar(1));
-          System.out.println(obj.addCar(2));
-          System.out.println(obj.addCar(3));
-          System.out.println(obj.addCar(1));
-    }
-
-  static   class ParkingSystem {
+public class Design_Parking_System_1603 { class ParkingSystem {
 
         int small;
         int medium;
