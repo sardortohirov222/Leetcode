@@ -1,4 +1,4 @@
-package LeetCode.easy.solved;
+package LeetCode.easy.solving;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,7 +17,7 @@ public class Kids_With_the_Greatest_Number_of_Candies_1431 {
         }
 
         for (int i = 0; i < candies.length; i++) {
-            isKidWithKandy.add(biggerOne <=(candies[i] + extraCandies-1));
+            isKidWithKandy.add(biggerOne <=(candies[i] + extraCandies));
         }
         return isKidWithKandy;
     }
