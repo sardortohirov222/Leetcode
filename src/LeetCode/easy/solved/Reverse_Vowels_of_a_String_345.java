@@ -8,15 +8,14 @@ import java.util.Set;
  * Time-11:31 PM
  */
 public class Reverse_Vowels_of_a_String_345 {
-    public static void main(String[] args) {
-        System.out.println(new Reverse_Vowels_of_a_String_345().reverseVowels("grantelilo"));
-    }
     public String reverseVowels(String s) {
-        char[] c = s.toCharArray();
-        ArrayList<Character> arr = new ArrayList<>();
         Set<Character> chars =Set.of('a','A','I','i','e','E','U','u','O','o');
-        for (int i = 0; i < c.length; i++) {
+        ArrayList<Character> arr = new ArrayList<>();
+        char[] c = new char[s.length()];
+        for (int i = 0; i <s.length() ; i++) {
+            c[i]=s.charAt(i);
             if (chars.contains(c[i])) arr.add(c[i]);
+
         }
         String s1 = "";
         int len = arr.size() - 1;
