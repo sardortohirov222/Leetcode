@@ -4,6 +4,7 @@ package LeetCode.easy.solving;
  * Date-8/20/2023
  * Time-4:56 AM
  */
+//solved just have to move
 public class Search_in_a_Binary_Search_Tree_700 {
     public TreeNode searchBST(TreeNode root, int val) {
         TreeNode left = null;
