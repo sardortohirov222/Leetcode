@@ -1,14 +1,10 @@
-package LeetCode.easy.solving;
+package LeetCode.easy.solved;
 
 /**
  * Date-8/21/2023
  * Time-11:24 PM
  */
 public class Excel_Sheet_Column_Title_168 {
-    public static void main(String[] args) {
-        System.out.println(new Excel_Sheet_Column_Title_168().convertToTitle(52));
-    }
-
     public String convertToTitle(int columnNumber) {
         StringBuilder builder = new StringBuilder();
         while (columnNumber > 26) {
