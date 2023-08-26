@@ -12,8 +12,7 @@ public class Majority_Element {
 
     public int majorityElement(int[] nums) {
       List list=new ArrayList<>();
-        for (int a:nums
-             ) {
+        for (int a:nums) {
             list.add(a);
         }
         int big=0;
