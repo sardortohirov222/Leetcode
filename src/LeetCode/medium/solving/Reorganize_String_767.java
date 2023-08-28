@@ -1,7 +1,5 @@
-package LeetCode.medium;
+package LeetCode.medium.solving;
 
-
-import java.util.Arrays;
 
 /**
  * Date-8/22/2023
