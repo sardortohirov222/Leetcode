@@ -1,6 +1,5 @@
 package LeetCode.easy.solved;
 
-import java.util.Arrays;
 
 /**
  * Date-8/7/2023

@@ -1,13 +1,10 @@
-package LeetCode.medium.solving;
+package LeetCode.medium.solved;
 
 /**
  * Date-8/29/2023
  * Time-6:29 AM
  */
 public class Integer_to_Roman_12 {
-    public static void main(String[] args) {
-        System.out.println(new Integer_to_Roman_12().intToRoman(1994));
-    }
     public String intToRoman(int num) {
         StringBuilder builder = new StringBuilder();
         while (0 < num) {
