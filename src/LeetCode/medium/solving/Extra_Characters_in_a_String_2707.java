@@ -13,7 +13,7 @@ public class Extra_Characters_in_a_String_2707 {
         System.out.println(new Extra_Characters_in_a_String_2707().minExtraChar("dwmodizxvvbosxxw",new String[]{"ox","lb","diz","gu","v","ksv","o","nuq","r","txhe","e","wmo","cehy","tskz","ds","kzbu"}));
     }
     public int minExtraChar(String s, String[] dictionary) {
-        Comparator<String> customComparator = (s1, s2) -> Integer.compare(s2.length(), s1.length());
+        Comparator<String> customComparator = (s1, s2) -> Integer.compare( s1.length(),s2.length());
         Arrays.sort(dictionary, customComparator);
         int n=0;
         int i=0;
