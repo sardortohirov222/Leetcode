@@ -4,7 +4,7 @@ package LeetCode.easy.solved;
  * Date-12/29/2022
  * Time-9:09 AM
  */
-public class Is_ubsequence_392 {
+public class Is_Subsequence_392 {
     public boolean isSubsequence(String s, String t) {
         int i = 0;
         int j = 0;
