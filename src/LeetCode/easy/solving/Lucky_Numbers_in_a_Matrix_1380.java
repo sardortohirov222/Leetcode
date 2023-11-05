@@ -1,4 +1,4 @@
-package LeetCode.easy.solving;
+package LeetCode.easy.solved;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,9 +9,6 @@ import java.util.List;
  * Time-5:39 AM (GMT+5)
  */
 public class Lucky_Numbers_in_a_Matrix_1380 {
-    public static void main(String[] args) {
-        System.out.println(new Lucky_Numbers_in_a_Matrix_1380().luckyNumbers(new int[][]{{7,8},{1,2}}));
-    }
     public List<Integer> luckyNumbers(int[][] matrix) {
         ArrayList<Integer> list = new ArrayList();
         int y = 0;
